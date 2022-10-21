@@ -14,10 +14,11 @@ public class Queen extends ChessPiece {
     public boolean canMoveToPosition(ChessBoard chessBoard, int line, int column, int toLine, int toColumn) {
         int stepL = toLine - line;
         int stepC = toColumn - column;
+        boolean  sua = chessBoard.board[toLine][toColumn].getColor().equals(this.color);
         boolean eq = line == toLine && column == toColumn;
         boolean board = toLine > 7 || toLine < 0 || toColumn > 7 || toColumn < 0;
         boolean queen = (abs(stepL) == abs(stepC))||(line == toLine || column == toColumn);
-        if (eq||board)return false;
+        if (eq||board||sua)return false;
         else return queen;
     }
 
