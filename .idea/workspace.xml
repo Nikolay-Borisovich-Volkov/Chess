@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86860235-de87-4b9e-bd4e-1c9a427551e4" name="Changes" comment="1">
+    <list default="true" id="86860235-de87-4b9e-bd4e-1c9a427551e4" name="Changes" comment="Добавил переминную sua">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex6/Vector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex6/Vector2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex6/Vector3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex9/Figure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex9/Parallelogram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex9/Quadrangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex9/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex9/Rhombuses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex9/Square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bishop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bishop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChessPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChessPiece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Horse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/King.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pawn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Queen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +55,15 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Nikola/IdeaProjects/PracticalWeekHW11"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -71,7 +89,11 @@
       <workItem from="1666219970251" duration="9289000" />
       <workItem from="1666269184384" duration="8112000" />
       <workItem from="1666356122978" duration="1668000" />
-      <workItem from="1666374579824" duration="4051000" />
+      <workItem from="1666374579824" duration="7194000" />
+      <workItem from="1666443797024" duration="2319000" />
+      <workItem from="1666447048145" duration="12441000" />
+      <workItem from="1666465467029" duration="1175000" />
+      <workItem from="1666702339802" duration="20576000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1666220000357</created>
@@ -87,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666220411511</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Добавил переминную sua">
+      <created>1666381902908</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666381902908</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +135,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="Добавил переминную sua" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил переминную sua" />
   </component>
 </project>
