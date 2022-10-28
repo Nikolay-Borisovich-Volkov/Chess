@@ -16,9 +16,8 @@ public class Bishop extends ChessPiece{
         int stepL = toLine - line;
         int stepC = toColumn - column;
         boolean barrier = false;
-        boolean sua = chessBoard.board[toLine][toColumn].getColor().equals(color);
+        boolean sua = chessBoard.board[toLine][toColumn] != null && chessBoard.board[toLine][toColumn].getColor().equals(color);
         boolean eqd = line == toLine||column == toColumn;
-        boolean board = toLine > 7 || toLine < 0 || toColumn > 7 || toColumn < 0;
         boolean bishop = abs(stepL) == abs(stepC);
         int countBarrier = 0;
         if(stepC > 1 && stepL > 1) {
@@ -45,7 +44,7 @@ public class Bishop extends ChessPiece{
         }
 
         if (countBarrier !=0) barrier = true;
-        if (eqd||board||sua||barrier)return false;
+        if (eqd||sua||barrier)return false;
         else return bishop;
     }
 

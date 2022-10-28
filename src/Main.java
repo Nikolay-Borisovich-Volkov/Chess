@@ -88,6 +88,7 @@ public class Main {
                             board.printBoard();
                         } else System.out.println("Передвижение не удалось");
                     } catch (Exception e) {
+                        System.out.println(e.getMessage());
                         System.out.println("Вы что-то ввели не так, попробуйте ещё раз");
                     }
 

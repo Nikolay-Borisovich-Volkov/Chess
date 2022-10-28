@@ -25,11 +25,10 @@ public class King extends ChessPiece {
 
         int stepL = toLine - line;
         int stepC = toColumn - column;
-        boolean sua = chessBoard.board[toLine][toColumn].getColor().equals(color);
+        boolean sua = chessBoard.board[toLine][toColumn] != null && chessBoard.board[toLine][toColumn].getColor().equals(color);
         boolean eq = (line == toLine && column == toColumn)||(abs(stepL) > 1 || abs(stepC) > 1);
-        boolean board = toLine > 7 || toLine < 0 || toColumn > 7 || toColumn < 0;
         boolean king = (abs(stepL) == abs(stepC))||(line == toLine || column == toColumn);
-        if (eq||board||sua) return false;
+        if (eq||sua) return false;
         else return king;
     }
 
