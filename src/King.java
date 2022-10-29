@@ -5,9 +5,9 @@ public class King extends ChessPiece {
         super(color);
     }
 
-    public boolean isUnderAttack(ChessBoard board, int line, int column){
-        for ( int i = 0; i  < board.board.length; i++ ){//ChessPiece[]
-            for (int j = 0; j < board.board[i].length; j++ ){
+    public boolean isUnderAttack(ChessBoard board, int line, int column) {
+        for ( int i = 0; i  < board.board.length; i++ ) {
+            for (int j = 0; j < board.board[i].length; j++ ) {
                 if (board.board[i][j]!= null && !(this.getColor().equals(board.board[i][j].getColor()))&& board.board[i][j].canMoveToPosition(board,i,j,line,column)) return true;
             }
         }
